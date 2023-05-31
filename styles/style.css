@@ -88,16 +88,11 @@ img {
   line-height: 1.5rem;
 }
 
-.attribution ul li,
-.attribution ul li i {
+.attribution ul li {
   line-height: 1.8rem;
   max-width: max-content;
   color: var(--Darkblue);
   transition: color 0.5s, transform 0.5s, font-size 0.5s;
-}
-
-.attribution i {
-  font-size: 1.5rem;
 }
 
 .attribution ul a {
@@ -106,9 +101,4 @@ img {
 
 .attribution ul li a:hover {
   color: rgb(114, 4, 114);
-}
-
-.attribution ul i:hover {
-  color: rgb(114, 4, 114);
-  transform: scale(1.5);
 }
