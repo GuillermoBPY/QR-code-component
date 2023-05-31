@@ -34,11 +34,11 @@ img {
   height: 100vh;
   width: 100%;
   display: flex;
-  align-content: space-between;
+  align-items: center;
 }
 
 .card__container {
-  margin: 1rem auto;
+  margin: 0 auto 4rem;
   background-color: var(--White);
   border-radius: 15px;
   padding: 1rem;
